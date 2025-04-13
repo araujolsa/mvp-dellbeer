@@ -100,31 +100,12 @@ mvp-dellbeer/
 └── README.md
 ```
 
----
-
-## 🧰 Solução de Problemas Comuns
-
-| Problema                   | Solução                                                        |
-|---------------------------|----------------------------------------------------------------|
-| `Porta 5000 está em uso`  | Finalize processos locais ou troque para `5001:5000` no docker |
-| `Erro CORS`               | O CORS já está habilitado no backend com `flask_cors.CORS(app)` |
-| `fetch ECONNREFUSED`      | Verifique se o backend está rodando corretamente               |
-
----
-
-## 📊 Arquitetura da Solução (Resumo)
+## 📊 Arquitetura da Solução
 
 ![Fluxograma da Arquitetura DellBeer](./assets/arquitetura-dellbeer.png)
 
 Frontend React → API Flask (REST) → Banco de dados em memória (lista de pedidos)  
 Comunicando via HTTP local: `localhost:3000` → `localhost:5000`
 
----
-
-## 👨‍💻 Autor
-
-**Seu Nome Aqui**  
-LinkedIn: [linkedin.com/in/seunome](https://linkedin.com/in/seunome)  
-GitHub: [github.com/seuusuario](https://github.com/seuusuario)
 
 
