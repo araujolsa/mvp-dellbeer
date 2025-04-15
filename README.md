@@ -39,7 +39,7 @@ Projeto de uma loja online de cervejas artesanais, onde é possível visualizar 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/mvp-dellbeer.git
+   git clone https://github.com/araujolsa/mvp-dellbeer
    cd mvp-dellbeer
    ```
 
